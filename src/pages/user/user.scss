@@ -1,0 +1,40 @@
+.users__page {
+  display: flex;
+  width: 100%;
+
+  .users__container {
+    flex: 6;
+
+
+    .user__content__top {
+      -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+      box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+      padding: 10px;
+      margin: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      h1 {
+        color: lightgray;
+        font-weight: 300;
+      }
+
+      .btn__create {
+        display: flex;
+        text-decoration: none;
+        border: none;
+        background-color: transparent;
+        font-size: 16px;
+        border-radius: 13px;
+        color: teal;
+        align-items: center;
+
+        &:hover {
+          background-color: rgba(0, 128, 128, 0.465);
+          color: white;
+        }
+      }
+    }
+  }
+}

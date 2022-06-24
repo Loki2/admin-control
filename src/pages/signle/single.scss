@@ -1,0 +1,101 @@
+
+
+.user__single__page {
+  display: flex;
+  width: 100%;
+
+  .user__single__container {
+    flex: 6;
+
+    .user__single__top {
+      padding: 10px 20px;
+      display: flex;
+      gap: 20px;
+
+      .top__left__content {
+        flex: 1;
+        -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+        box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+        // border-radius: 10px;
+        padding: 10px;
+        position: relative;
+        text-align: center;
+
+        .edit__button {
+          position: absolute;
+          top: 0;
+          right: 0;
+          padding: 9px;
+          font-size: 12px;
+          color: teal;
+          background-color: rgba(0, 128, 128, 0.212);
+          border-radius: 0 0 0 5px;
+          cursor: pointer;
+
+          &:hover {
+            background-color: teal;
+            color: white;
+          }
+        }
+
+        .title {
+          font-size: 18px;
+          color: lightgray;
+        }
+
+        .top__left__item {
+
+
+          .item__image {
+            width: 100px;
+            height: 100px;
+            padding: 5px;
+            border-radius: 50%;
+            object-fit: cover;
+          }
+
+          .top__left__detail {
+            
+
+            .item__title {
+              margin-bottom: 13px;
+              color: #555;
+            }
+
+            .item__detail {
+              margin-bottom: 7px;
+              font-size: 14px;
+
+              .item__key {
+                font-weight: bold;
+                color: gray;
+                margin-right: 10px;
+              }
+
+              .item__value {
+                font-size: 16px;
+                color: teal;
+              }
+            }
+          }
+        }
+      }
+
+      .top__right__content {
+        flex: 2;
+      }
+    }
+
+    .user__single__bottom {
+      -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+      box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+      padding: 20px;
+      margin: 10px 13px;
+
+      .bottom__title {
+        font-size: 18px;
+        color: gray;
+      }
+    }
+  }
+}
